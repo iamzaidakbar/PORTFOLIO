@@ -52,8 +52,7 @@ const HeroBanner = () => {
 						<div className="w-[35px] h-[35px] rounded-full bg-[transparent] flex justify-center items-center">
 							<img src={callIcon} alt="" className="w-[18px]"/>
 						</div>
-						<div>7006 186 256
-						</div>
+						<div>7006 186 256</div>
 					</div>
 					<ul className="flex 2xl:text-[20px]">
 						<li
