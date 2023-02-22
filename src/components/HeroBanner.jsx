@@ -5,6 +5,7 @@ import Wrapper from "./Wrapper";
 import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
+import callIcon from "../assets/phone-number-icon.png"
 import {scrollTo} from "../helper";
 import {useFollowPointer} from "./useFollowPointer";
 
@@ -41,11 +42,17 @@ const HeroBanner = () => {
 					transition={{duration: 0.7, delay: 0.25}}
 				>
 					<div className="flex items-center gap-[6px]">
-						<div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
+						<div className="w-[35px] h-[35px] rounded-full bg-[transparent] flex justify-center items-center">
 							<img src={gmailIcon} alt="" className="w-[18px]"/>
 						</div>
 						<div><a target={"_blank"}
-						        href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftLrrRCDBcDKrNFfxMPnvnKftBNmWhRDhMRFlJpkwFWdlMMmBHHRwQgcRjCdcsqxWlwjq">iamzaidakbar@gmail.com</a>
+						        href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftLrrRCDBcDKrNFfxMPnvnKftBNmWhRDhMRFlJpkwFWdlMMmBHHRwQgcRjCdcsqxWlwjq">iamzaidakbar@gmail.com</a> |
+						</div>
+
+						<div className="w-[35px] h-[35px] rounded-full bg-[transparent] flex justify-center items-center">
+							<img src={callIcon} alt="" className="w-[18px]"/>
+						</div>
+						<div>7006 186 256
 						</div>
 					</div>
 					<ul className="flex 2xl:text-[20px]">
