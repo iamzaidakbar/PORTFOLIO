@@ -43,9 +43,8 @@ const AboutMe = () => {
 					className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
 					I was Born in <span className={"text-[tomato] font-[500]"}>Kashmir</span>, and i'm living a dream.
 					I’ve always been a great problem solver, an independent introvert, and a technophile obsessed with
-					the latest devices. Today, I’ve worked for an organization namely Cyber Spark for around 1 year, and
-					I get
-					to show off all these elements of who I am.
+					the latest devices. I’ve worked with an organization namely Cyber Spark for around 1 year, and
+					I get to show off all these elements of who I am.
 				</Div>
 				{/* PARAGRAPH END */}
 

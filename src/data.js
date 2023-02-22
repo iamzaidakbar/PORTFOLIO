@@ -24,16 +24,19 @@ export const projects = [
     {
         name: "Youtube Clone",
         image: p1,
+        link: "https://youtubeclonebyzaidakbar.netlify.app/",
         tags: ["projects"],
     },
     {
         name: "Netflix Clone",
         image: p2,
+        link: "http://netlixclone.vercel.app/",
         tags: ["projects"],
     },
     {
         name: "Email Service",
         image: p3,
+        link: "http://real-email-service-angular-withbackend-service.vercel.app/",
         tags: ['projects'],
     },
     {
