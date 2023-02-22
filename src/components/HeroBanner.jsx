@@ -2,7 +2,7 @@ import {useRef} from "react";
 import {motion} from "framer-motion";
 
 import Wrapper from "./Wrapper";
-import man from "../assets/my-man2.png";
+import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import {scrollTo} from "../helper";
@@ -151,7 +151,7 @@ const HeroBanner = () => {
 					animate={{y: 0}}
 					transition={{duration: 0.5}}
 				>
-					<img src={man} className={"2xl:w-[475px]"} alt=""/>
+					<img src={man} className={"man 2xl:w-[475px]"} alt=""/>
 
 					{/* HIRE ME BUTTON START */}
 					<div
