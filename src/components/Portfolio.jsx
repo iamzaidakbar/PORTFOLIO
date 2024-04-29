@@ -64,7 +64,7 @@ const Portfolio = () => {
 
 									<img
 										src={item.image}
-										className="transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"
+										className="h-[100%] w-[100%] object-fill transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"
 									/>
 
 								</div>

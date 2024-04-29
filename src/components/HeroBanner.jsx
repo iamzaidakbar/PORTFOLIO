@@ -9,14 +9,14 @@ import callIcon from "../assets/phone-number-icon.png"
 import resumeIcon from "../assets/download-resume.png"
 import {scrollTo} from "../helper";
 import {useFollowPointer} from "./useFollowPointer";
-import resume from "../Resume/zaidakbar2023resume.pdf"
+import resume from "../Resume/resume.pdf"
 
 const HeroBanner = () => {
 	const ref = useRef(null);
 	const {x, y} = useFollowPointer(ref);
 	return (<div
 		id="hero"
-		className="w-full h-[100vh] relative bg-[#111111] overflow-hidden"
+		className="w-full h-[auto] pb-10 relative bg-[#111111] overflow-hidden"
 	>
 		{/* BACKGROUND ELEMENTS FOR DESKTOP START */}
 		<motion.span
@@ -150,7 +150,7 @@ const HeroBanner = () => {
 
 				{/* START */}
 				<div className="flex items-center gap-3">
-					<div className="text-[80px] font-light">1+</div>
+					<div className="text-[80px] font-light">2+</div>
 					<div className="leading-[22px]">
 						YEARS OF
 						<br/>

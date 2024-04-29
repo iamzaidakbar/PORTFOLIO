@@ -4,6 +4,8 @@ import p3 from "./assets/project-3.png";
 import p4 from "./assets/project-4.png";
 import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
+import p7 from "./assets/project-7.png";
+import p8 from "./assets/project-8.png";
 
 export const filters = [
     {
@@ -21,6 +23,18 @@ export const filters = [
 ];
 
 export const projects = [
+    {
+        name: "Netflix 2.0 Clone",
+        image: p7,
+        link: "https://netflix3-ivory.vercel.app/",
+        tags: ["projects"],
+    },
+    {
+        name: "Ecommerce Store",
+        image: p8,
+        link: "https://ecommerce-chi-one-65.vercel.app/",
+        tags: ["projects"],
+    },
     {
         name: "Youtube Clone",
         image: p1,
@@ -64,7 +78,7 @@ export const achievements = [
     },
     {
         id: 2,
-        year: 1,
+        year: 2,
         description: "YEARS OF<br />EXPERIENCE",
     },
     {
