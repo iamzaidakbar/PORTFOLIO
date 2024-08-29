@@ -6,6 +6,7 @@ import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
 import p7 from "./assets/project-7.png";
 import p8 from "./assets/project-8.png";
+import p9 from "./assets/project-9.png";
 
 export const filters = [
     {
@@ -23,6 +24,12 @@ export const filters = [
 ];
 
 export const projects = [
+    {
+        name: "ChatGPTmall",
+        image: p9,
+        link: "https://chatgptmall.tech/",
+        tags: ["projects"],
+    },
     {
         name: "Netflix 2.0 Clone",
         image: p7,
