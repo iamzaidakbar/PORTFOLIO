@@ -1,2 +1,2 @@
 # PORTFOLIO
-Link: https://portfolio-zaidakbar.netlify.app/
+Link: https://portfolio-zaidakbar.vercel.app/
